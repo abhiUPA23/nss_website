@@ -1,0 +1,71 @@
+.banner {
+  background: url("../assets/finalbanner2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+/* .card-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+} */
+
+.banner .title {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+  padding-bottom: 65px;
+}
+
+.events .row {
+  width: 100%;
+  height: 350px;
+  display: flex;
+}
+
+.events .event {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-size: cover !important;
+}
+
+.event .overlay {
+  transition: opacity 0.3s linear;
+  opacity: 1;
+}
+
+.event:hover > .overlay {
+  opacity: 0;
+}
+
+.event .event-description {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.event-description .heading {
+  font-size: 2.3rem;
+}
+
+.event-description .sub-heading {
+  font-size: 1rem;
+}

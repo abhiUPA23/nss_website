@@ -5,21 +5,25 @@
     width: 100%;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 
     color: #181818;
     background-color: white;
 
     font-size: large;
 
-    padding: 10px;
+    padding: 10px 30px;
+
+    box-shadow: 0 0 10px 0 rgba(50,50,50,.5);
+
+    z-index: 5;
 }
 
 .brand {
     display: flex;
-    justify-content: center;
+    justify-self: flex-start;
     align-items: center;
     gap: 10px;
 }
@@ -42,4 +46,11 @@
 }
 .nav-link a:hover {
     color: rgb(52, 52, 255);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
 }
