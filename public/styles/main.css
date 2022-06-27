@@ -20,14 +20,18 @@
 
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-
   padding-bottom: 65px;
+
+
 }
+
 
 .events .row {
   width: 100%;
   height: 350px;
   display: flex;
+  flex-wrap: wrap;                            /*changes*/
+
 }
 
 .events .event {
@@ -69,3 +73,75 @@
 .event-description .sub-heading {
   font-size: 1rem;
 }
+
+
+
+
+
+
+
+.about{
+  /* background: url('../assets/badk-about.jpg'); */
+  background-color:rgb(149, 80, 80);
+  display: flex;
+  width: 100%;   
+  height: 700px;
+  background-size: cover;
+  position: relative;
+  /* margin-top: 1050px; */
+  font-size: 2rem;
+
+}
+
+
+.about .Exploring{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-top: 10px;
+
+}
+
+/* ->exploring nss
+
+sub(who are we)
+
+second sub (our vision ) 
+  
+
+
+
+ ->map-journey   -> redirects to new page of journey
+
+
+ -> our collaborators 
+
+
+ ->Textimonials type seniors ka   
+
+
+
+ -> footer  (FAQs)
+
+
+
+
+
+ ->collaborators
+
+
+
+
+
+
+*/
+
+
